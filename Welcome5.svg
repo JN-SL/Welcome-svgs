@@ -1,0 +1,49 @@
+<svg width="100%" height="100%" style="background: #F1EEE9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">
+		@font-face{
+			font-family: Slot;
+			src: url("https://cdn.rawgit.com/freshsombody/slot-webfont/7efbb2f7/fonts/Slot-Regular.otf?raw=true");
+		}
+	</style>
+	<circle cx="50%" cy="30%" r="60%" fill="#F8F5EF" />
+	<circle cx="50%" cy="30%" r="" stroke="#EAD679" stroke-width="" fill="none">
+		<animate id="a71r" attributeName="r" values="0%;55%;65%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="0;a77w.begin+1" />
+		<animate id="a71w" attributeName="stroke-width" values="10%;10%;0%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a71r.begin" />
+	</circle>
+	
+	<circle cx="50%" cy="30%" r="" stroke="#F39949" stroke-width="" fill="none">
+		<animate id="a72r" attributeName="r" values="0%;55%;65%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a71r.begin+0.25" />
+		<animate id="a72w" attributeName="stroke-width" values="10%;10%;0%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a71r.begin+0.25" />
+	</circle>
+	
+	<circle cx="50%" cy="30%" r="" stroke="#EC6A4A" stroke-width="" fill="none">
+		<animate id="a73r" attributeName="r" values="0%;55%;65%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a72r.begin+1" />
+		<animate id="a73w" attributeName="stroke-width" values="10%;10%;0%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a72r.begin+1" />
+	</circle>
+	
+	<circle cx="50%" cy="30%" r="" stroke="#EAD679" stroke-width="" fill="none">
+		<animate id="a74r" attributeName="r" values="0%;55%;65%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a73r.begin+0.25" />
+		<animate id="a74w" attributeName="stroke-width" values="10%;10%;0%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a73r.begin+0.25" />
+	</circle>
+	
+	<circle cx="50%" cy="30%" r="" stroke="#F39949" stroke-width="" fill="none">
+		<animate id="a75r" attributeName="r" values="0%;55%;65%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a74r.begin+1" />
+		<animate id="a75w" attributeName="stroke-width" values="10%;10%;0%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a74r.begin+1" />
+	</circle>
+	
+	<circle cx="50%" cy="30%" r="" stroke="#EC6A4A" stroke-width="" fill="none">
+		<animate id="a76r" attributeName="r" values="0%;55%;65%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a75r.begin+0.25" />
+		<animate id="a77w" attributeName="stroke-width" values="10%;10%;0%" dur="1s" calcMode="spline" keyTimes="0;.846;1" keySplines="0 0 1 1; 0 0 1 1" begin="a75r.begin+0.25" />
+	</circle>
+	
+	<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+		<defs>
+			<path id="textCurvePath" d="M25,60 C35 50,65 50,75 60" stroke="black" fill="none"/>
+		</defs>
+		<text style="font-size:1.07em;font-family: 'Slot', cursive;text-shadow:-0.5em 0 #F8F5EF;">
+			<textPath xlink:href="#textCurvePath">
+				WELCOME
+			</textPath>
+		</text>
+	</svg>
+</svg>
